@@ -1,0 +1,110 @@
+! Title: Shifty-KR filters list (AdGuard)
+! Description: AdGuard용 Shifty-KR 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.
+! Expires: 1 days
+! Version: 2026.08.21
+
+
+vhm.cc#@#.ad-banner
+vhm.cc#@#.ad_banner
+vhm.cc#@#.ads
+vhm.cc#@#.adsbox
+vhm.cc#@#.ad-placement
+vhm.cc#@#.carbon-ads
+vhm.cc#@#.ad_iframe
+vhm.cc##.adz-one
+vhm.cc##.adz-two
+vhm.cc##.adz-three
+vhm.cc##.adz-four
+vhm.cc##.adz-five
+vhm.cc##.nb-ad
+/^(www\.)?funbe[0-9]+\.com/##.main_top_bann
+/^(www\.)?funbe[0-9]+\.com/##.main_top_bann2
+/^(www\.)?funbe[0-9]+\.com/##.main_top_bann3
+/^(www\.)?funbe[0-9]+\.com/##.banner_m
+/^(www\.)?funbe[0-9]+\.com/##a[href*="cbs-99.com"]
+/^(www\.)?funbe[0-9]+\.com/##a[href*="yes2.bet"]
+/^(www\.)?funbe[0-9]+\.com/##img[id="banner_21_img"]
+/^(www\.)?funbe[0-9]+\.com/##.bancol7
+/^(www\.)?funbe[0-9]+\.com/###nad
+/^(www\.)?funbe[0-9]+\.com/##li:has(a[href*="토토"])
+/^(www\.)?funbe[0-9]+\.com/##li:has(a[href*="1BET1"])
+/^(www\.)?funbe[0-9]+\.com/##li:has(a[href*="주소알림"])
+/^(www\.)?funbe[0-9]+\.com/##li:has(a[href*="코사이트"])
+/^(www\.)?njtv-[0-9]+\.com/###hd_pop
+/^(www\.)?njtv-[0-9]+\.com/##.main_banner_wrap
+/^(www\.)?njtv-[0-9]+\.com/###main_content
+/^(www\.)?njtv-[0-9]+\.com/##.main_content_wrap
+/^(www\.)?njtv-[0-9]+\.com/##.swipe-menu > li:has(a[href*="bo_site"])
+/^(www\.)?njtv-[0-9]+\.com/##.swipe-menu > li:has(a[href*="bo_event"])
+/^(www\.)?njtv-[0-9]+\.com/##.sub_menu_box ul > li:has(a[href*="bo_site"])
+/^(www\.)?njtv-[0-9]+\.com/##div.widget-title:has-text(경험치랭킹)
+/^(www\.)?njtv-[0-9]+\.com/##div.widget-title:has-text(경험치랭킹) + div.widget-box
+/^(www\.)?njtv-[0-9]+\.com/##.foot_nav
+/^(www\.)?njtv-[0-9]+\.com/##.chatting, .chatting2, .chatting3
+/^(www\.)?hulk[0-9]+\.com/##.floating_banner
+/^(www\.)?hulk[0-9]+\.com/##.right_top_banner
+/^(www\.)?hulk[0-9]+\.com/##.banner_zone
+/^(www\.)?hulk[0-9]+\.com/##.left_customer_box:has(a[href*="xn--2p7bp2h.tv"])
+/^(www\.)?hulk[0-9]+\.com/##.left_customer_box:has(a[href*="seo789seo"])
+/^(www\.)?hulk[0-9]+\.com/##div.aside_menu_title:has-text(광고존)
+/^(www\.)?hulk[0-9]+\.com/##div.aside_menu_title:has-text(광고존) + div.aside_menu
+/^(www\.)?hulk[0-9]+\.com/##div.aside_menu_title:has-text(보증업체)
+/^(www\.)?hulk[0-9]+\.com/##div.aside_menu_title:has-text(보증업체) + div.aside_menu
+/^(www\.)?hulk[0-9]+\.com/##li:has(a[href^="/bbs_list.php?bo_table=hong"])
+/^(www\.)?hulk[0-9]+\.com/##li:has(a[href^="/bbs_list.php?bo_table=company"])
+/^(www\.)?hulk[0-9]+\.com/##.m_menu_fix
+/^(www\.)?hulk[0-9]+\.com/##.left_event_box
+/^(www\.)?hulk[0-9]+\.com/##.right_board_box
+/^(www\.)?hulk[0-9]+\.com/##.left_new_box
+/^(www\.)?hulk[0-9]+\.com/##.hulk_seo_wrap
+/^wfwf[0-9]+\.com/###popup-overlay
+/^wfwf[0-9]+\.com/###banner-wrap
+/^wfwf[0-9]+\.com/##a.nav-item:contains(보증토토)
+/^tkor[0-9]+\.com/##li:has(a:contains(토토보증업체))
+/^tkor[0-9]+\.com/##li:has(a:contains(코사이트))
+/^tkor[0-9]+\.com/##section.top_banner
+/^tkor[0-9]+\.com/##div.main_top_bann
+/^blacktoon[0-9]+\.com/##div.mt-2.banner.container > .row
+/^blacktoon[0-9]+\.com/##.show.fade.alert-dismissible.alert-danger.alert
+/^blacktoon[0-9]+\.com/##li.nav-item:has(a[href*="bk-guarantee.com"])
+/^blacktoon[0-9]+\.com/##li.nav-item:has(a[href*="safetotoweb.com"])
+/^blacktoon[0-9]+\.com/##li.nav-item:has(a[href*="bluelive82.com"])
+/^blacktoon[0-9]+\.com/##div.cols:has(a[href*="bk-guarantee.com"])
+/^blacktoon[0-9]+\.com/##div.cols:has(a[href*="safetotoweb.com"])
+/^blacktoon[0-9]+\.com/##div.cols:has(a[href*="bluelive82.com"])
+/^blacktoon[0-9]+\.com/##.top-ad-padding
+/^blacktoon[0-9]+\.com/##div.alert:has(a:contains([AD]))
+/^(toki|sbxh)[0-9]*\.com/##section[data-br="1"]
+/^(toki|sbxh)[0-9]*\.com/##section[data-brs="header"]
+/^(toki|sbxh)[0-9]*\.com/##[data-banner-id]
+/^(toki|sbxh)[0-9]*\.com/##[data-banner-link]
+/^(toki|sbxh)[0-9]*\.com/##button[data-bs="1"]
+/^(toki|sbxh)[0-9]*\.com/##button[data-bp="1"]
+/^(toki|sbxh)[0-9]*\.com/##[data-bp-t="1"]
+/^(toki|sbxh)[0-9]*\.com/##span[data-banner-controller]
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'keydown')
+||*/js/fuckadblock.js$script,domain=/^tkor[0-9]+\.com/
+||luxy.speedwebgo.com/poster_js/*.js$script,domain=/^blacktoon[0-9]+\.com/
+||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
+||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
+||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
+||dtscout.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
+||histats.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
+||magsrv.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
+/fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
+||yes2.bet^$domain=/^(www\.)?funbe[0-9]+\.com/
+||cbs-99.com^$domain=/^(www\.)?funbe[0-9]+\.com/
+||ioxbppx2.net^$domain=/^wfwf[0-9]+\.com/
+||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$script,domain=/^(www\.)?hulk[0-9]+\.com/
+||blue.safetotoweb.com^$image,domain=/^(www\.)?hulk[0-9]+\.com/
+||vchat24.com^$script,domain=/^(www\.)?njtv-[0-9]+\.com/
+vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
+@@||coolenjoy.net$stealth=dpi
+@@||danawa.com$stealth=dpi
+@@||clien.net$stealth=dpi
+@@||madalla.kr$stealth=dpi
+@@||fmkorea.com$stealth=dpi
+@@||ad.doubleclick.net/favicon.ico*$domain=vhm.cc
+@@||ad-creative.pstatic.net^$domain=m.search.naver.com
