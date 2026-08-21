@@ -101,6 +101,7 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||vchat24.com^$script,domain=/^(www\.)?njtv-[0-9]+\.com/
 ||*/js/fuckadblock.js$script,domain=/^tkor[0-9]+\.com/
 /fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
+@@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
 @@||danawa.com$stealth=dpi
 @@||clien.net$stealth=dpi
