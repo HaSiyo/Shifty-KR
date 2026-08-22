@@ -8,6 +8,9 @@ deeplol.gg###mobile-banner
 deeplol.gg##div[class*="styled__AdBoxWrapper"]
 deeplol.gg##div[class*="pages__AdBox"]
 deeplol.gg##div[class*="PopupController__PopUpWrapper"]
+viewership.softc.one##div.rounded-md:has(a[href="/pricing"])
+viewership.softc.one##a:has(img[alt="Softcone Ad"])
+viewership.softc.one##div.fixed.z-50:has(img[src*="/ad/"])
 vhm.cc#@#.ad-banner
 vhm.cc#@#.ad_banner
 vhm.cc#@#.ads
@@ -118,6 +121,9 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||mc.yandex.ru^$script,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
 ||luxy.speedwebgo.com/poster_js/*.js$script,domain=/^blacktoon[0-9]+\.com/
 ||img.imagecoco.net/assets/media/$image,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
+||storage.dev-softcone.work/ads/*$image,domain=viewership.softc.one
+||campaign.wonder-rabbit.net^$domain=viewership.softc.one
+||image.iloa.gg/ad/*$image,domain=viewership.softc.one
 ||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
 ||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
