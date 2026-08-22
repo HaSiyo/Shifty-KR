@@ -4,6 +4,10 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
+kloa.gg##div:has(> div.z-20.fixed > a > img[alt="배너 이미지"])
+kloa.gg##div:has(> div[data-ad-placement])
+kloa.gg##div[aria-label="광고"]
+kloa.gg##div:has(> div[id^="_R_"])
 poro.gg##.popup-overlay:has(img[alt="광고 이미지"])
 poro.gg##div:has(> div > .ad-wrapper)
 deeplol.gg###mobile-banner
@@ -140,6 +144,7 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||hb.vntsm.com^$domain=iloa.gg
+||hb.vntsm.com^$domain=kloa.gg
 ||image.iloa.gg/ad/*$image,domain=iloa.gg
 ||go.bluetrafficstream.com^$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 ||cdn.jsdelivr.net/npm/devtools-detector@latest/lib/devtools-detector.js$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
