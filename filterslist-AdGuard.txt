@@ -18,6 +18,9 @@ vhm.cc##.adz-four
 vhm.cc##.adz-five
 vhm.cc##.nb-ad
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
+/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/###cpb-popup-banners
+/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/##.custom_banner_wrap
+/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/##.widget_custom_html:has(h3:has-text(제휴사이트))
 /^(www\.)?ydparty[0-9]+\.[a-z]+/##.notice
 /^(www\.)?ydparty[0-9]+\.[a-z]+/##.gm
 /^(www\.)?ydparty[0-9]+\.[a-z]+/##.gp
@@ -114,11 +117,13 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||ioxbppx2.net^$domain=/^wfwf[0-9]+\.com/
 ||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$script,domain=/^(www\.)?hulk[0-9]+\.com/
 ||blue.safetotoweb.com^$image,domain=/^(www\.)?hulk[0-9]+\.com/
+||shinystat.com^$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
 ||vchat24.com^$script,domain=/^(www\.)?njtv-[0-9]+\.com/
 ||*/js/fuckadblock.js$script,domain=/^tkor[0-9]+\.com/
 /fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
 /^https?:\/\/(www\.)?yako[0-9]+\.com\/data\/banner_my\//
 /^\/u\/k\?id=/^$domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
+/wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
 @@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
 @@||danawa.com$stealth=dpi
