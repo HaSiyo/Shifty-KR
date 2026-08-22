@@ -4,6 +4,8 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
+gerniverse.app##div.relative.text-center.mx-auto:has(> ins.adsbygoogle)
+gerniverse.app##div.fixed.bottom-4.right-4:has(svg.lucide-cookie)
 barotem.com##article.adsense
 barotem.com##div:has(> ins.adsbygoogle)
 barotem.com##.main_adsense
@@ -161,6 +163,8 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||yes2.bet^$domain=/^(www\.)?funbe[0-9]+\.com/
 ||cbs-99.com^$domain=/^(www\.)?funbe[0-9]+\.com/
 ||scripts.mediavine.com^$domain=poro.gg
+||pagead2.googlesyndication.com^$domain=gerniverse.app
+||googleads.g.doubleclick.net^$domain=gerniverse.app
 ||ioxbppx2.net^$domain=/^wfwf[0-9]+\.com/
 ||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$script,domain=/^(www\.)?hulk[0-9]+\.com/
 ||blue.safetotoweb.com^$image,domain=/^(www\.)?hulk[0-9]+\.com/
