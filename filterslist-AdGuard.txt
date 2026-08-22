@@ -18,6 +18,8 @@ vhm.cc##.adz-four
 vhm.cc##.adz-five
 vhm.cc##.nb-ad
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
+/^(www\.)?yako[0-9]+\.com/###hd_pop
+/^(www\.)?yako[0-9]+\.com/##.bn_sec
 /^(www\.)?funbe[0-9]+\.com/##.main_top_bann
 /^(www\.)?funbe[0-9]+\.com/##.main_top_bann2
 /^(www\.)?funbe[0-9]+\.com/##.main_top_bann3
@@ -101,6 +103,7 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||vchat24.com^$script,domain=/^(www\.)?njtv-[0-9]+\.com/
 ||*/js/fuckadblock.js$script,domain=/^tkor[0-9]+\.com/
 /fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
+/^https?:\/\/(www\.)?yako[0-9]+\.com\/data\/banner_my\//
 @@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
 @@||danawa.com$stealth=dpi
