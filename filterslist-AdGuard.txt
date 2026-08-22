@@ -4,6 +4,10 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
+barotem.com##article.adsense
+barotem.com##div:has(> ins.adsbygoogle)
+barotem.com##.main_adsense
+barotem.com##.menu_modal_adsense
 kloa.gg##div:has(> div.z-20.fixed > a > img[alt="배너 이미지"])
 kloa.gg##div:has(> div[data-ad-placement])
 kloa.gg##div[aria-label="광고"]
@@ -143,6 +147,8 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
 ||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
+||pagead2.googlesyndication.com^$domain=barotem.com
+||googleads.g.doubleclick.net^$domain=barotem.com
 ||hb.vntsm.com^$domain=iloa.gg
 ||hb.vntsm.com^$domain=kloa.gg
 ||image.iloa.gg/ad/*$image,domain=iloa.gg
