@@ -18,6 +18,18 @@ vhm.cc##.adz-four
 vhm.cc##.adz-five
 vhm.cc##.nb-ad
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.notice
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.gm
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.gp
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.tm
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.bm
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.bp
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##a.grid-asset
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.gnb > a[href^="/u/k?id="]
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.owl-item:has(a[href^="/u/k?id="])
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##.swiper-slide:has(a[href^="/u/k?id="])
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##li.info_content:has(a[href^="/u/k?id="])
+/^(www\.)?ydparty[0-9]+\.[a-z]+/##li.link_box:has(h3:has-text(관련링크))
 /^(www\.)?yako[0-9]+\.com/###hd_pop
 /^(www\.)?yako[0-9]+\.com/##.bn_sec
 /^(www\.)?funbe[0-9]+\.com/##.main_top_bann
@@ -88,7 +100,9 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'keydown')
+||mc.yandex.ru^$script,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
 ||luxy.speedwebgo.com/poster_js/*.js$script,domain=/^blacktoon[0-9]+\.com/
+||img.imagecoco.net/assets/media/$image,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
 ||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
 ||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
@@ -104,6 +118,7 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||*/js/fuckadblock.js$script,domain=/^tkor[0-9]+\.com/
 /fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
 /^https?:\/\/(www\.)?yako[0-9]+\.com\/data\/banner_my\//
+/^\/u\/k\?id=/^$domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
 @@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
 @@||danawa.com$stealth=dpi
