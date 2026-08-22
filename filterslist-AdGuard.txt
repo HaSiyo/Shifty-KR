@@ -1,6 +1,6 @@
 ! Title: Shifty-KR filters list (AdGuard)
 ! Description: AdGuard용 Shifty-KR 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.
-! Version: 2026.08.22
+! Version: 2026.08.23
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
@@ -21,6 +21,8 @@ vhm.cc##.adz-three
 vhm.cc##.adz-four
 vhm.cc##.adz-five
 vhm.cc##.nb-ad
+iloa.gg###mobile_takeover
+iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /^(www\.)?tvwiki[0-9]*\.[a-z]+/###cpb-popup-banners
 /^(www\.)?tvwiki[0-9]*\.[a-z]+/##.feature-grid
@@ -119,6 +121,8 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
 ||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
+||hb.vntsm.com^$domain=iloa.gg
+||image.iloa.gg/ad/*$image,domain=iloa.gg
 ||go.bluetrafficstream.com^$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 ||cdn.jsdelivr.net/npm/devtools-detector@latest/lib/devtools-detector.js$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 ||cdn1.cokcok.vip^$image,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
@@ -138,6 +142,8 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /^\/u\/k\?id=/^$domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
 /wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 /wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
+@@||lostark.game.onstove.com$stealth=dpi
+@@||m-lostark.game.onstove.com$stealth=dpi
 @@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
 @@||danawa.com$stealth=dpi
