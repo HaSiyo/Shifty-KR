@@ -4,6 +4,10 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
+deeplol.gg###mobile-banner
+deeplol.gg##div[class*="styled__AdBoxWrapper"]
+deeplol.gg##div[class*="pages__AdBox"]
+deeplol.gg##div[class*="PopupController__PopUpWrapper"]
 vhm.cc#@#.ad-banner
 vhm.cc#@#.ad_banner
 vhm.cc#@#.ads
