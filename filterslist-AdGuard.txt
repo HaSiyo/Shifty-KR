@@ -4,12 +4,8 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
-
 poro.gg##.popup-overlay:has(img[alt="광고 이미지"])
 poro.gg##div:has(> div > .ad-wrapper)
-
-||scripts.mediavine.com^$domain=poro.gg
-
 deeplol.gg###mobile-banner
 deeplol.gg##div[class*="styled__AdBoxWrapper"]
 deeplol.gg##div[class*="pages__AdBox"]
@@ -143,6 +139,7 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||magsrv.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
 ||yes2.bet^$domain=/^(www\.)?funbe[0-9]+\.com/
 ||cbs-99.com^$domain=/^(www\.)?funbe[0-9]+\.com/
+||scripts.mediavine.com^$domain=poro.gg
 ||ioxbppx2.net^$domain=/^wfwf[0-9]+\.com/
 ||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$script,domain=/^(www\.)?hulk[0-9]+\.com/
 ||blue.safetotoweb.com^$image,domain=/^(www\.)?hulk[0-9]+\.com/
