@@ -18,6 +18,12 @@ vhm.cc##.adz-four
 vhm.cc##.adz-five
 vhm.cc##.nb-ad
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
+/^(www\.)?tvwiki[0-9]*\.[a-z]+/###cpb-popup-banners
+/^(www\.)?tvwiki[0-9]*\.[a-z]+/##.feature-grid
+/^(www\.)?tvwiki[0-9]*\.[a-z]+/##.custom_banner_wrap
+/^(www\.)?tvwiki[0-9]*\.[a-z]+/##li:has(a[href*="mavrtracktor.com"])
+/^(www\.)?tvwiki[0-9]*\.[a-z]+/##li:has(a:has-text(라이브캠))
+/^(www\.)?tvwiki[0-9]*\.[a-z]+/##.widget_custom_html:has(.heading:has-text(제휴사이트))
 /^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/###cpb-popup-banners
 /^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/##.custom_banner_wrap
 /^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/##.widget_custom_html:has(h3:has-text(제휴사이트))
@@ -109,6 +115,9 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 ||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
 ||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
 ||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
+||go.bluetrafficstream.com^$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
+||cdn.jsdelivr.net/npm/devtools-detector@latest/lib/devtools-detector.js$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
+||cdn1.cokcok.vip^$image,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 ||dtscout.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
 ||histats.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
 ||magsrv.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
@@ -123,6 +132,7 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
 /^https?:\/\/(www\.)?yako[0-9]+\.com\/data\/banner_my\//
 /^\/u\/k\?id=/^$domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
+/wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 /wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
 @@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
