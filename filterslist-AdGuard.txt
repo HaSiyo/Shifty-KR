@@ -48,7 +48,8 @@ iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4102444800000}')
 
-
+/^(www\.)?jusocon[0-9]*\.[a-z]+/##.bn_sec
+/^(www\.)?jusocon[0-9]*\.[a-z]+/##.jbanner-container
 /^(www\.)?tvwiki[0-9]*\.[a-z]+/###cpb-popup-banners
 /^(www\.)?tvwiki[0-9]*\.[a-z]+/##.feature-grid
 /^(www\.)?tvwiki[0-9]*\.[a-z]+/##.custom_banner_wrap
@@ -180,7 +181,6 @@ toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4
 /wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
 /wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
 
-
 [$url=||t*.xtoon*.com^]##.f-tips
 [$url=||t*.xtoon*.com^]##.d-lg-flex.gap-4.main-menu
 [$url=||t*.xtoon*.com^]##.flex-column.d-flex.w-100 > .mb-3
@@ -215,7 +215,6 @@ toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4
 [$url=||b*.toon-bro.xyz^]##.bg-black\/80.z-50.inset-0.fixed
 [$url=||b*.toon-bro.xyz^]##.xl\:hidden > div
 [$url=||b*.toon-bro.xyz^]##.mr-2.px-2.py-2.h-9.hover\:text-accent-foreground.hover\:bg-accent.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-ring.focus-visible\:ring-1.focus-visible\:outline-none.transition-colors.font-medium.text-sm.rounded-md.whitespace-nowrap.justify-center.items-center.inline-flex
-
 
 @@||simpcity.cr/$stealth=dpi
 @@||lostark.game.onstove.com$stealth=dpi
