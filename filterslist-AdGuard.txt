@@ -1,6 +1,6 @@
 ! Title: Shifty-KR filters list (AdGuard)
 ! Description: AdGuard용 Shifty-KR 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.
-! Version: 2026.08.23
+! Version: 2026.08.24
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
@@ -217,6 +217,7 @@ toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4
 [$url=||b*.toon-bro.xyz^]##.mr-2.px-2.py-2.h-9.hover\:text-accent-foreground.hover\:bg-accent.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-ring.focus-visible\:ring-1.focus-visible\:outline-none.transition-colors.font-medium.text-sm.rounded-md.whitespace-nowrap.justify-center.items-center.inline-flex
 
 
+@@||simpcity.cr/$stealth=dpi
 @@||lostark.game.onstove.com$stealth=dpi
 @@||m-lostark.game.onstove.com$stealth=dpi
 @@||gitflic.ru$stealth=dpi
