@@ -4,16 +4,16 @@
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
+kloa.gg##div:has(> div.z-20.fixed > a > img[alt="배너 이미지"])
+kloa.gg##div:has(> div[data-ad-placement])
+kloa.gg##div[aria-label="광고"]
+kloa.gg##div:has(> div[id^="_R_"])
 gerniverse.app##div.relative.text-center.mx-auto:has(> ins.adsbygoogle)
 gerniverse.app##div.fixed.bottom-4.right-4:has(svg.lucide-cookie)
 barotem.com##article.adsense
 barotem.com##div:has(> ins.adsbygoogle)
 barotem.com##.main_adsense
 barotem.com##.menu_modal_adsense
-kloa.gg##div:has(> div.z-20.fixed > a > img[alt="배너 이미지"])
-kloa.gg##div:has(> div[data-ad-placement])
-kloa.gg##div[aria-label="광고"]
-kloa.gg##div:has(> div[id^="_R_"])
 poro.gg##.popup-overlay:has(img[alt="광고 이미지"])
 poro.gg##div:has(> div > .ad-wrapper)
 deeplol.gg###mobile-banner
@@ -47,14 +47,6 @@ iloa.gg###mobile_takeover
 iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 
-/^(toki|sbxh)[0-9]*\.com/##section[data-br="1"]
-/^(toki|sbxh)[0-9]*\.com/##section[data-brs="header"]
-/^(toki|sbxh)[0-9]*\.com/##[data-banner-id]
-/^(toki|sbxh)[0-9]*\.com/##[data-banner-link]
-/^(toki|sbxh)[0-9]*\.com/##button[data-bs="1"]
-/^(toki|sbxh)[0-9]*\.com/##button[data-bp="1"]
-/^(toki|sbxh)[0-9]*\.com/##[data-bp-t="1"]
-/^(toki|sbxh)[0-9]*\.com/##span[data-banner-controller]
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'keydown')
@@ -154,9 +146,6 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /^tkor[0-9]+\.com/##li:has(a:contains(코사이트))
 /^tkor[0-9]+\.com/##section.top_banner
 /^tkor[0-9]+\.com/##div.main_top_bann
-||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
-||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
-||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
 
 @@||simpcity.cr$stealth=dpi
 @@||donga.com$stealth=dpi
