@@ -130,17 +130,6 @@ toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4
 /^blacktoon[0-9]+\.com/##div.cols:has(a[href*="bluelive82.com"])
 /^blacktoon[0-9]+\.com/##.top-ad-padding
 /^blacktoon[0-9]+\.com/##div.alert:has(a:contains([AD]))
-/^(toki|sbxh)[0-9]*\.com/##section[data-br="1"]
-/^(toki|sbxh)[0-9]*\.com/##section[data-brs="header"]
-/^(toki|sbxh)[0-9]*\.com/##[data-banner-id]
-/^(toki|sbxh)[0-9]*\.com/##[data-banner-link]
-/^(toki|sbxh)[0-9]*\.com/##button[data-bs="1"]
-/^(toki|sbxh)[0-9]*\.com/##button[data-bp="1"]
-/^(toki|sbxh)[0-9]*\.com/##[data-bp-t="1"]
-/^(toki|sbxh)[0-9]*\.com/##span[data-banner-controller]
-/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
-/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
-/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'keydown')
 ||mc.yandex.ru^$script,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
 ||luxy.speedwebgo.com/poster_js/*.js$script,domain=/^blacktoon[0-9]+\.com/
 ||img.imagecoco.net/assets/media/$image,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
