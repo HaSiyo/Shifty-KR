@@ -202,7 +202,8 @@ toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4
 [$url=||b*.toon-bro.xyz^]##.xl\:hidden > div
 [$url=||b*.toon-bro.xyz^]##.mr-2.px-2.py-2.h-9.hover\:text-accent-foreground.hover\:bg-accent.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-ring.focus-visible\:ring-1.focus-visible\:outline-none.transition-colors.font-medium.text-sm.rounded-md.whitespace-nowrap.justify-center.items-center.inline-flex
 
-@@||simpcity.cr/$stealth=dpi
+@@||simpcity.cr$stealth=dpi
+@@||donga.com$stealth=dpi
 @@||lostark.game.onstove.com$stealth=dpi
 @@||m-lostark.game.onstove.com$stealth=dpi
 @@||gitflic.ru$stealth=dpi
