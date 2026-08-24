@@ -82,16 +82,6 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/###category-Ad
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/###go-top
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.justify-content-md-start.justify-content-center.d-flex
-/^b[0-9]*\.toon-bro\.[a-z]+/##.Toastify
-/^b[0-9]*\.toon-bro\.[a-z]+/##button.px-0.lg\:w-9.w-7.py-2.h-9.hover\:text-accent-foreground.hover\:bg-accent.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-ring.focus-visible\:ring-1.focus-visible\:outline-none.transition-colors.font-medium.text-sm.rounded-md.whitespace-nowrap.justify-center.items-center.inline-flex:nth-of-type(3)
-/^b[0-9]*\.toon-bro\.[a-z]+/##div.mt-3.gap-\[4px\].flex-col.flex:nth-of-type(3)
-/^b[0-9]*\.toon-bro\.[a-z]+/##div.flex-1.px-1.md\:px-8.container:nth-of-type(1)
-/^b[0-9]*\.toon-bro\.[a-z]+/##div.mt-3.gap-\[4px\].flex-col.flex:nth-of-type(1)
-/^b[0-9]*\.toon-bro\.[a-z]+/##.bg-background.border.rounded-t-\[10px\].flex-col.h-auto.flex.mt-24.z-50.bottom-0.inset-x-0.fixed
-/^b[0-9]*\.toon-bro\.[a-z]+/##.md\:py-0.md\:px-8.py-6
-/^b[0-9]*\.toon-bro\.[a-z]+/##.bg-black\/80.z-50.inset-0.fixed
-/^b[0-9]*\.toon-bro\.[a-z]+/##.xl\:hidden > div
-/^b[0-9]*\.toon-bro\.[a-z]+/##.mr-2.px-2.py-2.h-9.hover\:text-accent-foreground.hover\:bg-accent.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-ring.focus-visible\:ring-1.focus-visible\:outline-none.transition-colors.font-medium.text-sm.rounded-md.whitespace-nowrap.justify-center.items-center.inline-flex
 /^(www\.)?jusocon[0-9]*\.[a-z]+/##.bn_sec
 /^(www\.)?jusocon[0-9]*\.[a-z]+/##.jbanner-container
 /^(www\.)?tvwiki[0-9]*\.[a-z]+/###cpb-popup-banners
@@ -164,16 +154,9 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 /^tkor[0-9]+\.com/##li:has(a:contains(코사이트))
 /^tkor[0-9]+\.com/##section.top_banner
 /^tkor[0-9]+\.com/##div.main_top_bann
-/^blacktoon[0-9]+\.com/##div.mt-2.banner.container > .row
-/^blacktoon[0-9]+\.com/##.show.fade.alert-dismissible.alert-danger.alert
-/^blacktoon[0-9]+\.com/##li.nav-item:has(a[href*="bk-guarantee.com"])
-/^blacktoon[0-9]+\.com/##li.nav-item:has(a[href*="safetotoweb.com"])
-/^blacktoon[0-9]+\.com/##li.nav-item:has(a[href*="bluelive82.com"])
-/^blacktoon[0-9]+\.com/##div.cols:has(a[href*="bk-guarantee.com"])
-/^blacktoon[0-9]+\.com/##div.cols:has(a[href*="safetotoweb.com"])
-/^blacktoon[0-9]+\.com/##div.cols:has(a[href*="bluelive82.com"])
-/^blacktoon[0-9]+\.com/##.top-ad-padding
-/^blacktoon[0-9]+\.com/##div.alert:has(a:contains([AD]))
+||aws-cdn1.site/board_uploads/*$domain=/^(toki|sbxh)[0-9]*\.com/
+||whoas.xyz/live/track.js^$domain=/^(toki|sbxh)[0-9]*\.com/
+||googletagmanager.com/gtag/js?id=G-QTV1VL74EG^$domain=/^(toki|sbxh)[0-9]*\.com/
 
 @@||simpcity.cr$stealth=dpi
 @@||donga.com$stealth=dpi
