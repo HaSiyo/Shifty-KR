@@ -30,22 +30,8 @@ loawa.com##div:has(> iframe[src*="adfit"])
 loawa.com##[id^="google_ads_iframe"]
 loawa.com##div[class*="fixed"]:has(ins.adsbygoogle)
 loawa.com##div[class*="fixed"]:has(ins.kakao_ad_area)
-vhm.cc#@#.ad-banner
-vhm.cc#@#.ad_banner
-vhm.cc#@#.ads
-vhm.cc#@#.adsbox
-vhm.cc#@#.ad-placement
-vhm.cc#@#.carbon-ads
-vhm.cc#@#.ad_iframe
-vhm.cc##.adz-one
-vhm.cc##.adz-two
-vhm.cc##.adz-three
-vhm.cc##.adz-four
-vhm.cc##.adz-five
-vhm.cc##.nb-ad
 iloa.gg###mobile_takeover
 iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
-vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
@@ -149,8 +135,6 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 
 @@||simpcity.cr$stealth=dpi
 @@||donga.com$stealth=dpi
-@@||lostark.game.onstove.com$stealth=dpi
-@@||m-lostark.game.onstove.com$stealth=dpi
 @@||gitflic.ru$stealth=dpi
 @@||coolenjoy.net$stealth=dpi
 @@||danawa.com$stealth=dpi
@@ -158,5 +142,5 @@ vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
 @@||madalla.kr$stealth=dpi
 @@||fmkorea.com$stealth=dpi
 @@||annas-archive.gl$stealth=dpi
-@@||ad.doubleclick.net/favicon.ico*$domain=vhm.cc
-@@||ad-creative.pstatic.net^$domain=m.search.naver.com
+@@||lostark.game.onstove.com$stealth=dpi
+@@||m-lostark.game.onstove.com$stealth=dpi
