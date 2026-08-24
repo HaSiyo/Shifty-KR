@@ -46,8 +46,18 @@ vhm.cc##.nb-ad
 iloa.gg###mobile_takeover
 iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 vhm.cc#%#//scriptlet('set-constant', 'adsbygoogle', '[]')
-toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4102444800000}')
 
+/^(toki|sbxh)[0-9]*\.com/##section[data-br="1"]
+/^(toki|sbxh)[0-9]*\.com/##section[data-brs="header"]
+/^(toki|sbxh)[0-9]*\.com/##[data-banner-id]
+/^(toki|sbxh)[0-9]*\.com/##[data-banner-link]
+/^(toki|sbxh)[0-9]*\.com/##button[data-bs="1"]
+/^(toki|sbxh)[0-9]*\.com/##button[data-bp="1"]
+/^(toki|sbxh)[0-9]*\.com/##[data-bp-t="1"]
+/^(toki|sbxh)[0-9]*\.com/##span[data-banner-controller]
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'keydown')
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.f-tips
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.d-lg-flex.gap-4.main-menu
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.flex-column.d-flex.w-100 > .mb-3
@@ -164,42 +174,6 @@ toon-bro.xyz#%#//scriptlet('trusted-set-local-storage-item', 'bro', '{"notice":4
 /^blacktoon[0-9]+\.com/##div.cols:has(a[href*="bluelive82.com"])
 /^blacktoon[0-9]+\.com/##.top-ad-padding
 /^blacktoon[0-9]+\.com/##div.alert:has(a:contains([AD]))
-||mc.yandex.ru^$script,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
-||luxy.speedwebgo.com/poster_js/*.js$script,domain=/^blacktoon[0-9]+\.com/
-||img.imagecoco.net/assets/media/$image,domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
-||googlesyndication.com^$domain=loawa.com
-||adfit.kakao.com^$domain=loawa.com
-||adservice.google.com^$domain=loawa.com
-||storage.dev-softcone.work/ads/*$image,domain=viewership.softc.one
-||campaign.wonder-rabbit.net^$domain=viewership.softc.one
-||image.iloa.gg/ad/*$image,domain=viewership.softc.one
-||pagead2.googlesyndication.com^$domain=barotem.com
-||googleads.g.doubleclick.net^$domain=barotem.com
-||hb.vntsm.com^$domain=iloa.gg
-||hb.vntsm.com^$domain=kloa.gg
-||image.iloa.gg/ad/*$image,domain=iloa.gg
-||go.bluetrafficstream.com^$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
-||cdn.jsdelivr.net/npm/devtools-detector@latest/lib/devtools-detector.js$script,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
-||cdn1.cokcok.vip^$image,domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
-||dtscout.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
-||histats.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
-||magsrv.com^$script,domain=/^(www\.)?funbe[0-9]+\.com/
-||yes2.bet^$domain=/^(www\.)?funbe[0-9]+\.com/
-||cbs-99.com^$domain=/^(www\.)?funbe[0-9]+\.com/
-||scripts.mediavine.com^$domain=poro.gg
-||pagead2.googlesyndication.com^$domain=gerniverse.app
-||googleads.g.doubleclick.net^$domain=gerniverse.app
-||ioxbppx2.net^$domain=/^wfwf[0-9]+\.com/
-||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$script,domain=/^(www\.)?hulk[0-9]+\.com/
-||blue.safetotoweb.com^$image,domain=/^(www\.)?hulk[0-9]+\.com/
-||shinystat.com^$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
-||vchat24.com^$script,domain=/^(www\.)?njtv-[0-9]+\.com/
-||*/js/fuckadblock.js$script,domain=/^tkor[0-9]+\.com/
-/fuckadblock.js$script,domain=/^(www\.)?funbe[0-9]+\.com/
-/^https?:\/\/(www\.)?yako[0-9]+\.com\/data\/banner_my\//
-/^\/u\/k\?id=/^$domain=/^(www\.)?ydparty[0-9]+\.[a-z]+/
-/wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?tvwiki[0-9]*\.[a-z]+/
-/wp-content/plugins/custom-popup-banner/$domain=/^(www\.)?(tvwiki[0-9]*\.[a-z]+|mimitv[0-9]*\.[a-z]+)/
 
 @@||simpcity.cr$stealth=dpi
 @@||donga.com$stealth=dpi
