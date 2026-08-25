@@ -1,6 +1,6 @@
 ! Title: Shifty-KR (AdGuard)
 ! Description: AdGuard용 Shifty-KR 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.
-! Version: 2026.08.25
+! Version: 2026.08.26
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
@@ -133,6 +133,8 @@ iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 /^tkor[0-9]+\.com/##section.top_banner
 /^tkor[0-9]+\.com/##div.main_top_bann
 
+@@||kr^$stealth=dpi
+@@||192.168.$stealth=dpi
 @@||simpcity.cr$stealth=dpi
 @@||donga.com$stealth=dpi
 @@||gitflic.ru$stealth=dpi
@@ -142,5 +144,15 @@ iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 @@||madalla.kr$stealth=dpi
 @@||fmkorea.com$stealth=dpi
 @@||annas-archive.gl$stealth=dpi
+@@||code-pia.com^$stealth=dpi
+@@||glonmall.com^$stealth=dpi
+@@||hanaroetf.com^$stealth=dpi
+@@||isplus.$stealth=dpi
+@@||joycity.com^$stealth=dpi
+@@||nexon.com^$stealth=dpi
+@@||sofrano.com^$stealth=dpi
+@@||termeden.com^$stealth=dpi
+@@||truefriend.com^$stealth=dpi
+@@||koreainvestment.com^$stealth=dpi
 @@||lostark.game.onstove.com$stealth=dpi
 @@||m-lostark.game.onstove.com$stealth=dpi
