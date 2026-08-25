@@ -156,3 +156,6 @@ iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 @@||koreainvestment.com^$stealth=dpi
 @@||lostark.game.onstove.com$stealth=dpi
 @@||m-lostark.game.onstove.com$stealth=dpi
+@@||coupang.com^$stealth
+@@||smartstore.naver.com^$stealth
+@@||shopping.naver.com^$stealth
