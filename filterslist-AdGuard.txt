@@ -1,6 +1,6 @@
 ! Title: Shifty-KR (AdGuard)
 ! Description: AdGuard용 Shifty-KR 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.
-! Version: 2026.08.26
+! Version: 2026.08.27
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
@@ -32,6 +32,23 @@ loawa.com##div[class*="fixed"]:has(ins.adsbygoogle)
 loawa.com##div[class*="fixed"]:has(ins.kakao_ad_area)
 iloa.gg###mobile_takeover
 iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
+k2s.cc#$#div:has(> div[role="button"][aria-label="Safe 100%"]), div:has(> div[role="button"][aria-label="Show more"]) { display: none !important; opacity: 0 !important; transition: none !important; animation: none !important; pointer-events: none !important; }
+k2s.cc#$##wrapper > div:has(button[data-testid="activeTab"]) { display: none !important; }
+k2s.cc#$#button[data-stats="support:click"] { display: none !important; }
+k2s.cc#$#div[data-testid="download-box"] > div:last-child { display: none !important; }
+k2s.cc#$#div[data-testid="download-box"] div:has(> .specialpopperWhite) { display: none !important; }
+k2s.cc#$#button[data-testid="favorites:add"] { display: none !important; }
+forum.allporncomix.com##.ad-banner
+forum.allporncomix.com##.adsbygoogle
+forum.allporncomix.com##.samCodeUnit
+forum.allporncomix.com##.samItem
+forum.allporncomix.com##.samBanerUnit
+forum.allporncomix.com##.samSupportUs
+forum.allporncomix.com##.samSupportUsOverlay
+forum.allporncomix.com###samNotice
+forum.allporncomix.com##.js-installPromptContainer
+forum.allporncomix.com##.notice:has-text(push notifications)
+forum.allporncomix.com##.notice:has-text(permission to enable)
 
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
 /^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
@@ -133,6 +150,8 @@ iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
 /^tkor[0-9]+\.com/##section.top_banner
 /^tkor[0-9]+\.com/##div.main_top_bann
 
+​||s.pemsrv.com^$redirect=noopjs
+$$script:contains(s.pemsrv.com)
 @@||kr^$stealth=dpi
 @@||192.168.$stealth=dpi
 @@||simpcity.cr$stealth=dpi
