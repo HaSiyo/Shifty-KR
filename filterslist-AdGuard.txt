@@ -59,9 +59,15 @@ forum.allporncomix.com##.js-installPromptContainer
 forum.allporncomix.com##.notice:has-text(push notifications)
 forum.allporncomix.com##.notice:has-text(permission to enable)
 
-/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'contextmenu')
-/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'dragstart')
-/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('prevent-addEventListener', 'keydown')
+! [NewToki / Sbxh] Next.js Error Boundary 충돌 방지 및 안티 애드블록 우회 규칙 (Filterslists-KO 예외 처리 포함)
+/^(toki|sbxh)[0-9]*\.com/#%#//scriptlet('set-constant', '__ntkDevtoolsPreflight', '1')
+@@||aws-cdn1.site/board_uploads/*$image,domain=/^(toki|sbxh)[0-9]*\.com/
+@@||apihost.store/init/*.js$script,domain=/^(toki|sbxh)[0-9]*\.com/
+@@||whoas.xyz/live/track.js$script,domain=/^(toki|sbxh)[0-9]*\.com/
+/^(toki|sbxh)[0-9]*\.com/#@#section[data-br]
+/^(toki|sbxh)[0-9]*\.com/##section[data-br]:style(position: absolute !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important; z-index: -9999 !important; clip: rect(0,0,0,0) !important;)
+/^(toki|sbxh)[0-9]*\.com/##.nav-ad-inquiry:style(display: none !important;)
+
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.f-tips
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.d-lg-flex.gap-4.main-menu
 /^t[0-9]*\.xtoon[0-9]*\.[a-z]+/##.flex-column.d-flex.w-100 > .mb-3
@@ -161,7 +167,7 @@ forum.allporncomix.com##.notice:has-text(permission to enable)
 
 ||ad.doubleclick.net/favicon.ico$domain=vhm.cc,image,redirect=1x1-transparent.gif
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=vhm.cc,redirect=noopjs
-​||s.pemsrv.com^$redirect=noopjs
+||s.pemsrv.com^$redirect=noopjs
 $$script:contains(s.pemsrv.com)
 @@||kr^$stealth=dpi
 @@||192.168.$stealth=dpi
