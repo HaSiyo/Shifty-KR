@@ -1,6 +1,6 @@
 ! Title: Shifty-KR (AdGuard)
 ! Description: AdGuard용 Shifty-KR 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.
-! Version: 2026.08.29
+! Version: 2026.09.17
 ! Expires: 1 day (update frequency)
 ! Homepage: https://github.com/HaSiyo/Shifty-KR
 
@@ -41,12 +41,33 @@ loawa.com##div[class*="fixed"]:has(ins.adsbygoogle)
 loawa.com##div[class*="fixed"]:has(ins.kakao_ad_area)
 iloa.gg###mobile_takeover
 iloa.gg##div.fixed.z-50:has(img[src*="/ad/"])
-k2s.cc#$#div:has(> div[role="button"][aria-label="Safe 100%"]), div:has(> div[role="button"][aria-label="Show more"]) { display: none !important; opacity: 0 !important; transition: none !important; animation: none !important; pointer-events: none !important; }
-k2s.cc#$##wrapper > div:has(button[data-testid="activeTab"]) { display: none !important; }
-k2s.cc#$#button[data-stats="support:click"] { display: none !important; }
-k2s.cc#$#div[data-testid="download-box"] > div:last-child { display: none !important; }
-k2s.cc#$#div[data-testid="download-box"] div:has(> .specialpopperWhite) { display: none !important; }
-k2s.cc#$#button[data-testid="favorites:add"] { display: none !important; }
+fboom.me,fileboom.me##button[data-stats="support:click"]
+fboom.me,fileboom.me##button.omni-email-widget
+fboom.me,fileboom.me##body > div:has(> [role="button"][aria-label="Open Safe Payment Information"])
+fboom.me,fileboom.me##[role="button"][aria-label="Open Safe Payment Information"]
+fboom.me,fileboom.me##[data-testid="download-box"] > div:first-child > div:has(> button[variant="primary"])
+fboom.me,fileboom.me##[data-testid="download-box"] > div:nth-child(2)
+fboom.me,fileboom.me##.container > div:has(button[data-testid="activeTab"])
+fboom.me,fileboom.me##.container > div:has([data-testid="fullInfoTariff"])
+fboom.me,fileboom.me##[data-testid="fullInfoTariff"]
+fboom.me,fileboom.me##button[data-testid^="subscribe_premium"]
+fboom.me,fileboom.me##a[href*="/premium"]
+fboom.me,fileboom.me##[data-testid="burger-menu-button"]
+fboom.me,fileboom.me##footer#footer
+k2s.cc,keep2share.cc##[data-testid="header"] button[variant="primary"]
+k2s.cc,keep2share.cc##[data-testid="favorites:add"]
+k2s.cc,keep2share.cc###wrapper > div:first-child > div:first-child > div[type="paragraph"]
+k2s.cc,keep2share.cc##[data-testid="download-box"] button[variant="secondary"]
+k2s.cc,keep2share.cc##[data-testid="download-box"] > a[href*="/partner-files"]
+k2s.cc,keep2share.cc##[data-testid="download-box"] > div:last-child
+k2s.cc,keep2share.cc###wrapper > div:nth-child(2)
+k2s.cc,keep2share.cc###wrapper > div:nth-child(3)
+k2s.cc,keep2share.cc###wrapper > button[data-stats="support:click"]
+k2s.cc,keep2share.cc##button.omniEmailWidget
+k2s.cc,keep2share.cc##body > div.ezn51o320
+k2s.cc,keep2share.cc##[role="button"][aria-label="Safe 100%"]
+k2s.cc,keep2share.cc##body > div:has(> [role="button"][aria-label="Safe 100%"])
+k2s.cc,keep2share.cc###footer
 forum.allporncomix.com##.ad-banner
 forum.allporncomix.com##.adsbygoogle
 forum.allporncomix.com##.samCodeUnit
